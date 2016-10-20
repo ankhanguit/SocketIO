@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SocketIO</string>
+    <string name="btn_chat_text">Send</string>
+    <string name="ed_chat_hint">Type Messages...</string>
+    <string name="app_title">This is the application for test SocketIO</string>
+    <string name="lb_ip_input">IP Server </string>
+    <string name="ed_ip_hint">http://192.168.105</string>
+    <string name="btn_join">Join Server</string>
+</resources>

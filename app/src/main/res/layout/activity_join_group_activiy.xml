@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="2dp"
+    android:paddingRight="2dp"
+    android:paddingTop="20dp"
+    android:paddingBottom="2dp"
+    android:background="#008B8B"
+    tools:context="com.example.panda94.socketio.JoinGroupActiviy">
+    <TextView
+        android:id="@+id/app_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_title"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:layout_centerHorizontal="true"
+        />
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/app_title"
+        android:layout_marginTop="150dp">
+
+        <EditText
+            android:id="@+id/ed_input_ip"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="@string/ed_ip_hint"
+            android:layout_centerHorizontal= "true"
+            android:padding="5dp"
+            android:background="#FFFFFF"/>
+        <Button
+            android:id="@+id/btn_join_server"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_join"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:background="#FFFFFF"
+            android:textColor="#008B8B"
+            android:layout_below="@+id/ed_input_ip"
+            />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
